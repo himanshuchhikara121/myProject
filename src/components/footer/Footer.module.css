@@ -1,0 +1,156 @@
+/* .cFooterWrapper {
+    width: 100%;
+    margin-top: -5rem;
+    background: linear-gradient(135deg, #6a11cb, #2575fc, #6a11cb);
+}
+
+
+.cFooterWrapper > hr {
+    width: 100%;
+    height: 1px;
+    border: none;
+    background: white;
+    margin-top: 1rem;
+}
+
+.cFooter {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.logo > img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.logo > span {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 12rem;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    font-size: 0.7rem;
+    gap: 1rem;
+    font-style: italic;
+}
+
+.detail > span:nth-of-type(1) {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+.pngLine:hover {
+    cursor: pointer;
+}
+
+.pngLine {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.icon {
+    width: 25px;
+} */
+.cFooterWrapper {
+    width: 100%;
+    margin-top: -5rem;
+    /* background: linear-gradient(135deg, 
+        #6a1b9a, 
+        #333333, 
+        #101010  
+    ); */
+    background-image: linear-gradient(to bottom right, #38A2D7, #561139);
+
+    color: white; /* Default text color */
+}
+
+.cFooterWrapper > hr {
+    width: 100%;
+    height: 1px;
+    border: none;
+    background: white;
+    margin-top: 1rem;
+}
+
+.cFooter {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    color: white; /* Ensure text color is white for better visibility */
+}
+
+.logo > img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.logo > span {
+    font-weight: 600;
+    font-size: 1rem;
+    color: white; /* Explicitly set text color to white */
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 12rem;
+    color: white; /* Ensure text color is white for better visibility */
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    font-size: 0.7rem;
+    gap: 1rem;
+    font-style: italic;
+    color: white; /* Ensure text color is white for better visibility */
+}
+
+.detail > span:nth-of-type(1) {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2rem;
+    color: white; /* Explicitly set text color to white */
+}
+
+.pngLine:hover {
+    cursor: pointer;
+}
+
+.pngLine {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: white; /* Ensure text color is white for better visibility */
+}
+
+.icon {
+    width: 20px;
+}
