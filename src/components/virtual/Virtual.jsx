@@ -8,7 +8,7 @@ import ReactCompareImage from 'react-compare-image';
 
 const Virtual = () => {
   return (
-    <div id='three' className={css.virtual}>
+    <div id='try on' className={css.virtual}>
       <div className={css.left}>
         <span>Virtual Try On</span>
         <span>Never buy the wrong shade again</span>

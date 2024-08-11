@@ -12,7 +12,7 @@ import { SliderProducts } from '../../data/products';
 
 const Slider = () => {
   return (
-    <div id='two' className='s-container'>
+    <div id='brands' className='s-container'>
       <Swiper
         modules={[Pagination, Navigation]}
         className='mySwiper'

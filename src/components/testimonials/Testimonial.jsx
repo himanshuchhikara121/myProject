@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 const Testimonials = () => {
     return (
-        <div id='five' className={css.testimonials}>
+        <div id='reviews' className={css.testimonials}>
             <div className={css.wrapper}>
                 <div className={css.container}>
                     <span>Top Rated</span>

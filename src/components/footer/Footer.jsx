@@ -1,47 +1,3 @@
-// import React from 'react'
-// import css from './Footer.module.css'
-// import Logo from '../../assets/logo.png'
-// import {
-//     InboxIcon,
-//     PhoneIcon,
-//     LocationMarkerIcon,
-//     LoginIcon,
-//     UsersIcon,
-//     LinkIcon
-// } from "@heroicons/react/outline"
-
-// const Footer = () => {
-//   return (
-//     <div className={cFooterWrapper}>
-//         <hr />
-//         <div className={css.cFooter}>
-//             <img src={Logo} alt="img" />
-//             <span>UrbanStyle</span>
-//         </div>
-//         <div className={css.block}>
-//             <div className={css.detail}>
-//                 <span>Contact US</span>
-//                 <span className={css.pngLine}>
-//                     <LocationMarkerIcon className={css.icon}/>
-//                     <div>
-//                         <h4>Contact Us</h4>
-//                         <p>1234 Main Street,</p>
-//                         <p>Suite 567,</p>
-//                         <p>Springfield, IL 62704</p>
-//                         <p>United States</p>
-//                         <p>Phone: +1 (555) 123-4567</p>
-//                         <p>Email: info@example.com</p>
-//                     </div>
-//                 </span>
-//             </div>
-//         </div>
-//     </div>
-
-//   )
-// }
-
-// export default Footer
-
 import React from 'react';
 import css from './Footer.module.css';
 import Logo from '../../assets/logo.png';
@@ -56,7 +12,7 @@ import {
 
 const Footer = () => {
   return (
-    <div id='six' className={css.cFooterWrapper}>
+    <div id='contact us' className={css.cFooterWrapper}>
       <hr />
       <div className={css.cFooter}>
         <div className={css.logo}>

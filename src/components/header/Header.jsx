@@ -12,12 +12,12 @@ const Header = () => {
     if (event.key === 'Enter') {
       const searchInput = document.getElementById('search-input').value.toLowerCase();
       const sections = {
-        'home': '#one',
-        'brands': '#two',
-        'try on': '#three',
-        'products': '#four',
-        'reviews': '#five',
-        'contact us': '#six',
+        'home': '#home',
+        'brands': '#brands',
+        'try on': '#try on',
+        'products': '#products',
+        'reviews': '#reviews',
+        'contact us': '#contact us',
       };
 
       const targetSection = sections[searchInput];
@@ -39,12 +39,12 @@ const Header = () => {
       <div className={css.right}>
         <div className={css.menu}>
           <ul className={css.menu}>
-            <li><a href="#one">Home</a></li>
-            <li><a href="#two">Brands</a></li>
-            <li><a href="#three">Try On</a></li>
-            <li><a href="#four">Products</a></li>
-            <li><a href="#five">Reviews</a></li>
-            <li><a href="#six">Contact Us</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#brands">Brands</a></li>
+            <li><a href="#try on">Try On</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact us">Contact Us</a></li>
           </ul>
         </div>
         <input 
